@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+width: 550px;
+height: 868px;
+left: 664px;
+top: 960px;
+
+background: #23252C;
+}
+.container{
+    
+position: absolute;
+width: 317px;
+height: 399px;
+left: 116px;
+top: 361px;
+
+background: #F5F5F5;
+}
+.img{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    background: url(../images/peka.png);
+    border-radius: 10px 10px 0px 0px;
+}
+.name{
+    position: absolute;
+    width: 178.06px;
+    height: 25.81px;
+    left: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #2B283A;
+
+}
+.occupation{
+    position: absolute;
+    width: 178.06px;
+    height: 140.19px;
+    left: 73px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F47D27;
+}
+.website{
+    position: absolute;
+width: 228px;
+height: 16px;
+left: 50px;
+top: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #4A4E74;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    position: absolute;
+    width: 247px;
+    height: 34px;
+    left: 35px;
+    top: 100px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.btn-txt{
+    /* Text */
+    position: static;
+    width: 36px;
+    height: 16px;
+    left: 116.5px;
+    top: 9px;
+
+    /* text-sm/leading-4/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: #374151;
+}
+.mail{
+    /* Mail */
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 92.5px;
+    top: 9px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+.mail-logo{
+    position: absolute;
+    left: 38%;
+    top: 35%;
+    bottom: 10%;
+    
+
+
+}
+.group{
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    left: 151px;
+    top: 480px;
+    
+}
+.about{
+    /* About */
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    top: 10px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2B283A;
+
+}
+.about-txt{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #4A4E74;
+
+}
+.interests{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    top: 95px;
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #2B283A;
+
+    
+}
+.interests-txt{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    top: 125px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #4A4E74;
+    
+}
+footer{
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.twitter{
+    position: absolute;
+    right: 70%;
+   
+    bottom: 25%;
+
+}
+.fb{
+    position: absolute;
+    right: 56.5%;
+    bottom: 25%;
+    
+}
+.insta{
+    position: absolute;
+    right: 44.5%;
+    bottom: 25%;
+    
+}
+.linkedin{
+    position: absolute;
+    right: 32.5%;
+    bottom: 25%;
+}
+.github{
+  position: absolute;
+    right: 20%;
+    bottom: 25%;
+
+}
